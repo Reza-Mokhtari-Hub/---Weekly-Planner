@@ -1,11 +1,121 @@
-<div align="center">
+<div dir="rtl">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# 📅 برنامه‌ریزی و ردیابی هفتگی (Weekly Planner)
 
-  <h1>Built with AI Studio</h2>
+[![GitHub](https://img.shields.io/badge/GitHub-Reza--Mokhtari--Hub-10b981?style=for-the-badge&logo=github)](https://github.com/Reza-Mokhtari-Hub)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178c6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-6.2-646cff?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Express](https://img.shields.io/badge/Express-4.21-0f172a?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-v4-06b6d4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+یک وب‌اپلیکیشن سبک، سریع و کاملاً فارسی (RTL) برای مدیریت زمان، برنامه‌ریزی هفتگی و پیگیری اهداف شخصی.  
+این پروژه با تمرکز روی سادگی، ظاهر پرانرژی و کارایی روزمره طراحی شده تا بدون نیاز به ابزارهای پیچیده، کل برنامه هفته رو یک‌جا مدیریت کنید، وضعیت انجام کارها رو دنبال کنید و هر زمان خواستید خروجی چاپی یا PDF باکیفیت بگیرید.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+---
+
+## ✨ امکانات و قابلیت‌ها
+
+### ۱. دو حالت نمایش (جدول ماتریسی + نمای کارتی)
+- **نمای جدولی هفتگی:** چیدمان کامل روزهای هفته در بازه‌های زمانی مختلف (صبح، ظهر، عصر و شب) برای دیدن تصویر کلی هفته در یک نگاه.
+- **نمای کارتی روزانه:** مناسب برای تمرکز روی برنامه‌های همان روز و استفاده راحت‌تر در موبایل.
+- **مدیریت دسته‌بندی‌ها:** دسته‌بندی رنگی کارها به‌همراه امکان ساخت دسته جدید با نام، رنگ و آیکون دلخواه و فیلتر سریع روی جدول.
+
+### ۲. جابه‌جایی کارها با Drag & Drop (دسکتاپ و موبایل)
+- امکان کشیدن و رها کردن هر کارت بین روزها و بازه‌های زمانی مختلف با موس روی دسکتاپ.
+- پشتیبانی کامل از **Touch Drag & Drop** برای صفحه‌نمایش‌های لمسی و موبایل.
+
+### ۳. خروجی مستقیم PDF، تصویر PNG و چاپ
+- ساخت و دانلود مستقیم فایل **PDF استاندارد (A4)** در دو حالت افقی (`Landscape`) و عمودی (`Portrait`).
+- خروجی گرفتن از کل جدول برنامه به‌صورت تصویر باکیفیت **PNG**.
+- دارای پیش‌نمایش زنده (Live Preview) و امکان انتخاب نمایش آمار و یادداشت‌ها در خروجی چاپ.
+
+### ۴. ردیابی پیشرفت و ارزیابی هفتگی
+- نمودار میله‌ای پویا با **Chart.js** برای مشاهده روند انجام کارها در طول هفته.
+- بخش **ارزیابی هفتگی (Weekly Reflection)** برای ثبت دستاوردها، چالش‌ها، نکات بهبود و امتیازدهی به عملکرد هفته.
+- انیمیشن جشن (**Confetti**) و افکت صوتی ملایم با **Web Audio API** هنگام تکمیل کارها (قابل فعال/غیرفعال‌سازی در تنظیمات).
+
+### ۵. آرشیو، تکرار برنامه و بکاپ JSON
+- ذخیره‌سازی خودکار و آنی تمام داده‌ها در `localStorage` مرورگر برای دسترسی آفلاین.
+- قابلیت **آرشیو هفته‌ها** و ساخت خودکار برنامه هفته جدید بر پایه هفته‌های قبلی.
+- خروجی و ورودی کامل اطلاعات در قالب فایل **JSON** (`weekly-data.json`) برای انتقال یا شخصی‌سازی سریع.
+
+### ۶. شخصی‌سازی ظاهر و تنظیمات
+- **۴ تم رنگی روشن و پرانرژی:** پرانرژی روشن، شکوفه بهاری، نعنایی اقیانوسی و آفتابی گرم.
+- پشتیبانی از نمایش ارقام فارسی (`۰-۹`) یا انگلیسی، انتخاب روز شروع هفته (شنبه یا یک‌شنبه) و حالت نمای فشرده.
+
+---
+
+## 🛠️ تکنولوژی‌های استفاده‌شده
+
+- **رابط کاربری:** HTML5، Tailwind CSS، فونت `Vazirmatn` و `Plus Jakarta Sans`، آیکون‌های `FontAwesome 6`
+- **کتابخانه‌های کلاینت:** `Chart.js`، `jsPDF`، `html2canvas`، `html2pdf.js`، `canvas-confetti`، `marked.js`
+- **سرور و بیلد:** Node.js، `Express`، `Vite`، `TypeScript`
+
+---
+
+## 📁 ساختار پروژه
+
+```text
+├── index.html          # رابط کاربری، استایل‌ها، منطق برنامه و موتور خروجی PDF
+├── weekly-data.json    # فایل دیتای پیش‌فرض و قابل ویرایش برنامه هفتگی
+├── server.ts           # سرور Express برای اجرا در محیط توسعه و پروداکشن
+├── vite.config.ts      # تنظیمات Vite و Tailwind CSS
+├── package.json        # اسکریپت‌ها و وابستگی‌های پروژه
+├── tsconfig.json       # تنظیمات TypeScript
+└── src/                # ماژول‌های کمکی پروژه
+```
+
+---
+
+## 💻 نصب و اجرای محلی
+
+### ۱. کلون کردن مخزن
+```bash
+git clone https://github.com/Reza-Mokhtari-Hub/weekly-planner.git
+cd weekly-planner
+```
+
+### ۲. نصب وابستگی‌ها
+```bash
+npm install
+```
+
+### ۳. اجرای محیط توسعه (Development)
+```bash
+npm run dev
+```
+سپس پروژه روی آدرس زیر در دسترس خواهد بود:
+```text
+http://localhost:3000
+```
+
+### ۴. بیلد و اجرا در حالت پروداکشن
+```bash
+npm run build
+npm start
+```
+
+### بررسی کدهای TypeScript
+```bash
+npm run lint
+```
+
+---
+
+## ⌨️ میانبرهای صفحه‌کلید
+
+| کلید | عملکرد |
+| :--- | :--- |
+| `N` | باز کردن پنجره افزودن کار جدید |
+| `Esc` | بستن مودال یا پنجره فعال |
+
+---
+
+## 👤 توسعه‌دهنده
+
+توسعه و طراحی توسط **رضا مختاری**  
+گیت‌هاب: [Reza-Mokhtari-Hub](https://github.com/Reza-Mokhtari-Hub)
+
+اگر این پروژه براتون کاربردی بود، خوشحال می‌شم با یک ستاره (⭐) ازش حمایت کنید.
 
 </div>
